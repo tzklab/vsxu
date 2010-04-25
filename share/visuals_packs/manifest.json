@@ -1,0 +1,166 @@
+{
+	"name" : "VSXu Free Visuals",
+	"author" : "Vovoid Media Technologies AB",
+	"visuals" : [
+		{
+			"filename" : "states/bubbles_by_vovoid",
+			"name" : "Bubbles",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/butterfly_dna_2_by_asterix",
+			"name" : "Butterfly DNA 2",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/cicluoid_speakers_remix_by_asterix",
+			"name" : "Cicluoid Speakers Remix",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/core_by_vovoid",
+			"name" : "Core",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/deformed_glow_by_vovoid",
+			"name" : "Deformed Glow",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/dragon_heart_by_asterix",
+			"name" : "Dragon Heart",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/flies_by_asterix",
+			"name" : "Flies",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/frac_metablob_by_asterix",
+			"name" : "Frac Metablob",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/frac_ribbons_by_asterix",
+			"name" : "Frac Ribbons",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/frac_ribbons_particles_by_asterix",
+			"name" : "Frac Ribbons Particles",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/fraxterix_by_asterix",
+			"name" : "Fraxterix",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/geiss_on_royds_by_asterix",
+			"name" : "Geiss on Royds",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/hall_of_mirrors_by_jaw",
+			"name" : "Hall of Mirrors",
+			"author" : "@jawrxu"
+		},
+		{
+			"filename" : "states/ice_flower_by_vovoid",
+			"name" : "Ice Flower",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/icescape_by_asterix",
+			"name" : "Icescape",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/kaleido_vis_by_vovoid",
+			"name" : "Kaleido Vis",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/missile_attack_by_vovoid",
+			"name" : "Missile Attack",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/missile_attack_2_by_asterix",
+			"name" : "Missile Attack 2",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/operatic_spheres_by_vovoid",
+			"name" : "Operatic Spheres",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/orange_squares_by_asterix",
+			"name" : "Orange Squares",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/particles_flash_out_by_vovoid",
+			"name" : "Particles Flash Out",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/phoenix_by_asterix",
+			"name" : "Phoenix",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/planeworlds_by_vovoid",
+			"name" : "Plane Worlds",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/pwetty_disco_star_by_asterix",
+			"name" : "Pwetty Disco Star",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/rave_lamp_by_asterix",
+			"name" : "Rave Lamp",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/sparkle_blob_by_asterix",
+			"name" : "Sparkle Blob",
+			"author" : "Asterix"
+		},
+		{
+			"filename" : "states/sphere_world_by_vovoid",
+			"name" : "Sphere World",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/star_zoomer_by_vovoid",
+			"name" : "Star Zoomer",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/starlight_aurora_by_vovoid",
+			"name" : "Starlight Aurora",
+			"author" : "@VSXu"
+		},
+		{
+			"filename" : "states/techno_stripes_by_vovoid",
+			"name" : "Techno Stripes",
+			"author" : "Vovoid Media Technologies AB"
+		},
+		{
+			"filename" : "states/tri_ribbons_by_asterix",
+			"name" : "Tri Ribbons",
+			"author" : ""
+		},
+		{
+			"filename" : "states/trippy_squares_by_asterix",
+			"name" : "Trippy Squares",
+			"author" : "Asterix"
+		}
+	]
+}

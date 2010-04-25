@@ -1,0 +1,7 @@
+cmake_policy(VERSION 2.6.0)
+cmake_policy(SET CMP0015 OLD)
+cmake_policy(SET CMP0011 OLD)
+
+if(APPLE)
+  add_definitions( -DVSXU_MAC_XCODE )
+endif(APPLE)

@@ -1,0 +1,35 @@
+
+if (VSXU_STATIC EQUAL 1)
+else()
+link_directories(${OpenGL_LIB_DIR})
+target_link_libraries(
+  ${module_id}
+  vsx_engine_graphics
+  ${GLEW_LIBRARY}
+  ${FTGL_LIBRARY}
+  ${FREETYPE_LIBRARIES}
+  vsx_engine
+  ${CMAKE_THREAD_LIBS_INIT}
+  ${OPENGL_LIBRARIES}
+  ${LIBRARIES}
+)
+
+if (UNIX OR VSXU_WINDOWS_LIB_BUILD)
+    install(TARGETS ${module_id} DESTINATION ${VSXU_INSTALL_LIB_DIR}/vsxu/plugins)
+else()
+  if (WIN32)
+    install(TARGETS ${module_id} DESTINATION plugins COMPONENT engine)
+  else()
+    message("unknown platform install target, fix this")
+  endif()
+
+endif()
+
+
+set_target_properties(
+  ${module_id}
+    PROPERTIES
+      PREFIX ""
+)
+
+endif()

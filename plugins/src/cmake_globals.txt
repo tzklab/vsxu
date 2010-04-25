@@ -1,0 +1,25 @@
+
+include(${CMAKE_SOURCE_DIR}/cmake/CMakeFindLib.txt)
+
+if (VSXU_DEBUG_NOPRINTFS EQUAL 1)
+  add_definitions(-g -Wall)
+endif(VSXU_DEBUG_NOPRINTFS EQUAL 1)
+
+if (VSXU_DEBUG EQUAL 1)
+  add_definitions( -DVSXU_DEBUG )
+  add_definitions(-g -Wall)
+endif ()
+
+add_definitions(
+  -DGLEW_STATIC=1
+  -DCMAKE_INSTALL_PREFIX=${CMAKE_INSTALL_PREFIX}
+)
+
+include_directories(
+  ${GLEW_INCLUDE_DIRS}
+  ${CMAKE_SOURCE_DIR}
+  ${CMAKE_SOURCE_DIR}/plugins
+  ${CMAKE_SOURCE_DIR}/lib/common/include
+  ${CMAKE_SOURCE_DIR}/lib/engine/include
+  ${CMAKE_SOURCE_DIR}/lib/engine_graphics/include
+)
